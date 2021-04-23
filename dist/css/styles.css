@@ -12,6 +12,41 @@ h1 {
   font-weight: 200;
 }
 
+.clock-holder{
+  float: left;
+}
+
+.drop-down-dog-nav {
+  width: 250px;
+  height: 100px;
+  text-align: left;
+  font-family: 'helvetica';
+}
+
+.drop-down-dog-title {
+  font-weight: bold;
+}
+
+.drop-down-dog-list {
+  background-color: white;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  opacity: 75%;
+  
+}
+
+.dog-link {
+  display: none;
+  font-weight: lighter;
+}
+
+.showing {
+  display: block;
+  font-size: 18px;
+  margin: 5px;
+}
+
 .header {
   display: flex;
   justify-content: space-around;
@@ -51,3 +86,4 @@ h1 {
   opacity: 1;
   transform: translateX(0%) scale(1);
 }
+
