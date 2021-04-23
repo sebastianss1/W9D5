@@ -59,6 +59,11 @@ h1 {
 
 /*  Phase 4: Slide In & Out Classes */
 
+
+.slide-and-scroll {
+  width: 500px;
+  margin: auto;
+}
 .align-left {
   float: left;
   margin-right: 20px;
