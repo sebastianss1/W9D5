@@ -27,7 +27,7 @@ function populateList(todos) {
         const input = document.createElement("input");
         input.setAttribute("data-todo", todo["inputValue"])
         input.setAttribute("type", "checkbox");
-        if (todo["done"]) {
+        if (todo["done"] === "true") {
         input.checked = true;
         }
         const li = document.createElement("li");
