@@ -7,20 +7,34 @@ html {
 
 h1 {
   color: #F0F2EF;
-  font-family: 'helvetica neue';
-  font-size: 20px;
+  font-family: papyrus;
+  font-size: 40px;
   font-weight: 200;
+}
+
+h2 {
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.welcome {
+  display: flex;
+  justify-content: space-around;
 }
 
 .clock-holder{
   float: left;
+  width: 200px;
+  font-size: 30px;
 }
 
 .drop-down-dog-nav {
-  width: 250px;
+  width: 200px;
   height: 100px;
   text-align: left;
   font-family: 'helvetica';
+  font-size: 30px;
 }
 
 .drop-down-dog-title {
@@ -39,6 +53,11 @@ h1 {
 .dog-link {
   display: none;
   font-weight: lighter;
+  text-align: left;
+}
+.dog-link:hover {
+  background-color: yellow;
+  opacity: 50%;
 }
 
 .showing {
@@ -61,8 +80,10 @@ h1 {
 
 
 .slide-and-scroll {
-  width: 500px;
+  width: 800px;
   margin: auto;
+  background-color: antiquewhite;
+  opacity: 80%;
 }
 .align-left {
   float: left;
